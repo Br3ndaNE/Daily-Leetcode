@@ -54,3 +54,10 @@ def prefix(lst):
     return mostCommonPrefix
 
 print(prefix(lst2))
+
+
+my_set = {1,23,4,5,5,6,6,6,6,7,7}
+my_set.add(0)
+my_set.discard(6)
+my_set.discard(23)
+print("number",my_set)
